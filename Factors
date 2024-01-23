@@ -1,0 +1,20 @@
+Write a C program to compute the factors of a given number#include <stdio.h>
+
+int main() {
+    // Declare variables
+    int number;
+
+    // Input from the user
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    // Display the factors
+    printf("Factors of %d are: ", number);
+    for (int i = 1; i <= number; ++i) {
+        if (number % i == 0) {
+            printf("%d ", i);
+        }
+    }
+
+    return 0;
+}
