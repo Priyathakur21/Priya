@@ -1,0 +1,23 @@
+Write a C program to take input of two numbers and print their sum, product, difference 
+
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    double num1, num2;
+
+    // Input from the user
+    printf("Enter the first number: ");
+    scanf("%lf", &num1);
+
+    printf("Enter the second number: ");
+    scanf("%lf", &num2);
+
+    // Calculate and display the sum, product, and difference
+    printf("Sum: %.2lf\n", num1 + num2);
+    printf("Product: %.2lf\n", num1 * num2);
+    printf("Difference: %.2lf\n", num1 - num2);
+
+    return 0;
+}
+
